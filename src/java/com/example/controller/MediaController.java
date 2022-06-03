@@ -56,6 +56,7 @@ public class MediaController extends HttpServlet {
                     out.println("<br>");
                 }
             }
+            out.println("<p><a href='" + getServletContext().getContextPath() + "/upload.html'>Upload a new file</a>");
             out.println("</body>");
             out.println("</html>");
         }
