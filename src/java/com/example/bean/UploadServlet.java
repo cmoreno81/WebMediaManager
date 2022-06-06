@@ -124,7 +124,7 @@ public class UploadServlet extends HttpServlet {
                 }
             }
         }
-        out.println("<br><a href='" + getServletContext().getContextPath() + " /MediaController'> Inicio </a>");
+        out.println("<br><a href='" + getServletContext().getContextPath() + "/MediaController'> Inicio </a>");
     }
 
     /**
